@@ -25,7 +25,7 @@ const Cart = (props) => {
     let Tax=total*0.1
     return (
         <div>
-         <h2>Cart Amount</h2>
+         <h2 className='text-primary'>Cart Amount</h2>
          <h5>Items Ordered:{cart.length}</h5>
          <h4>Product Price:{FormateNumber(total)}</h4>
          <p>Shipping Cost:{FormateNumber(Shipping)}</p>
